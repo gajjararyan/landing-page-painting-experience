@@ -105,7 +105,7 @@ export default function Home() {
   return (
     <main className='h-screen px-4 overflow-hidden'>
       <motion.div className='absolute inset-0 w-screen h-screen z-0' variants={bgAnimate} initial="hidden" animate="show">
-        <Image src="/img/bg.webp" alt="background" fill sizes="(max-width:768px) 33vw, (max-width:1024px) 50vw, 100vw" priority={true} className='object-cover brightness-50' />
+        <Image src="/img/img-7.jpg" alt="background" fill sizes="(max-width:768px) 33vw, (max-width:1024px) 50vw, 100vw" priority={true} className='object-cover brightness-50' />
       </motion.div>
 
       <motion.nav className='flex justify-between items-center text-white relative z-10 pt-4' variants={navAnimate} initial="hidden" animate="show">
@@ -127,13 +127,13 @@ export default function Home() {
       </div>
       <motion.div className='flex gap-4 absolute bottom-4' variants={imageAnimate} initial="hidden" animate="show">
         <motion.div className='relative w-[300px] h-[200px]' variants={imageAnimateChild}>
-          <Image src="/img/img-1.webp" alt="image" fill sizes="(max-width:768px) 33vw, (max-width:1024px) 50vw, 100vw" className='object-cover rounded-sm saturate-150' />
+          <Image src="/img/img-6.jpg" alt="image" fill sizes="(max-width:768px) 33vw, (max-width:1024px) 50vw, 100vw" className='object-cover rounded-sm saturate-150' />
         </motion.div>
         <motion.div className='relative w-[300px] h-[200px]' variants={imageAnimateChild}>
-          <Image src="/img/img-2.webp" alt="image" fill sizes="(max-width:768px) 33vw, (max-width:1024px) 50vw, 100vw" className='object-cover rounded-sm saturate-150' />
+          <Image src="/img/img-5.jpg" alt="image" fill sizes="(max-width:768px) 33vw, (max-width:1024px) 50vw, 100vw" className='object-cover rounded-sm saturate-150' />
         </motion.div>
         <motion.div className='relative w-[300px] h-[200px]' variants={imageAnimateChild}>
-          <Image src="/img/img-3.webp" alt="image" fill sizes="(max-width:768px) 33vw, (max-width:1024px) 50vw, 100vw" className='object-cover rounded-sm saturate-150' />
+          <Image src="/img/img-4.jpg" alt="image" fill sizes="(max-width:768px) 33vw, (max-width:1024px) 50vw, 100vw" className='object-cover rounded-sm saturate-150' />
         </motion.div>
       </motion.div>
     </main>
